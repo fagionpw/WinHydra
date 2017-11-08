@@ -4,11 +4,25 @@
 
 Thc-Hydra for Windows
 
+Lastest Version form git 
+
+`commit 445e5026ef1760e0bbd0c978ba599054adfbb80a (HEAD -> master, origin/master, origin/HEAD)
+`
+
 With SSH and MySQL modules.
 
-Bundle cygwin's libs
+Bundle cygwin's DLL
 
-Juse clone into your desktop and run hydra.exe in cmd or powershell
+Juse clone/download into your desktop and run hydra.exe in cmd or powershell
+
+```
+IN CMD OR POWERSHELL
+git clone https://github.com/jjusec/WinHydra $DESKTOP
+cd $DESKTOP/WinHydra
+hydra
+
+```
+
 
 **NOTE**: You may need Microsoft Visual C++ 2008 Redistributable Package for depences
 
